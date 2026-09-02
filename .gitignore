@@ -1,0 +1,28 @@
+# ---------- 大数据资产: 不进 git(体积大, 且可本地保留) ----------
+# 预训练模型权重 / 数据
+**/bert-base-chinese/
+**/jd_data/
+**/training_data/
+
+# 训练产物 / 中间数据 / 模型
+**/final_data/
+**/save_models/
+**/save_model/
+**/result/
+**/__pycache__/
+*.pt
+*.pkl
+*.bin
+*.safetensors
+*.onnx
+
+# 分词器缓存 / 临时
+*.cache
+jieba.cache
+
+# 环境 / 系统
+.env
+*.log
+.idea/
+.vscode/
+.DS_Store
